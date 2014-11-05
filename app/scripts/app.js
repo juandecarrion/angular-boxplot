@@ -15,7 +15,9 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    // Own Modules
+    'boxplot'
   ])
   .config(function ($routeProvider) {
     $routeProvider
